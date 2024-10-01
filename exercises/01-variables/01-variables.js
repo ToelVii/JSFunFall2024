@@ -7,4 +7,3 @@
 
 
 let myNumber = 1111;
-console.log(myNumber);
