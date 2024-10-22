@@ -4,4 +4,5 @@
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-let myName = "Terrance";
+let myName = "Toel";
+console.log(myName)

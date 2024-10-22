@@ -9,3 +9,4 @@ const ONE_HUNDRED = 100;
 
 
 const percentage = 10 / 2 * 100;
+console.log(percentage);

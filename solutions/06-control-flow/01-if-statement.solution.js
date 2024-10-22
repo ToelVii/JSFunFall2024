@@ -21,3 +21,4 @@ let isBuyingDrink = true; // e.g.
 if (isBuyingDrink) {
   total = total + drink;
 }
+console.log(total);
