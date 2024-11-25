@@ -210,6 +210,111 @@
       "windows": {
         "program": "${workspaceFolder}/node_modules/jest/bin/jest"
       }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "11 Objects",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": [
+        "--runTestsByPath",
+        "./tests/11-objects/objects.test.js",
+        "--watch",
+        "--config",
+        "jest.config.mjs"
+      ],
+      "env": {
+        "NODE_OPTIONS": "--experimental-vm-modules"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "12 Loops with Objects",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": [
+        "--runTestsByPath",
+        "./tests/12-loops-objects/loops-objects.test.js",
+        "--watch",
+        "--config",
+        "jest.config.mjs"
+      ],
+      "env": {
+        "NODE_OPTIONS": "--experimental-vm-modules"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "14 Control Flow",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": [
+        "--runTestsByPath",
+        "./tests/14-more-control-flow/more-control-flow.test.js",
+        "--watch",
+        "--config",
+        "jest.config.mjs"
+      ],
+      "env": {
+        "NODE_OPTIONS": "--experimental-vm-modules"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "17 Callbacks",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": [
+        "--runTestsByPath",
+        "./tests/17-callbacks/callbacks.test.js",
+        "--watch",
+        "--config",
+        "jest.config.mjs"
+      ],
+      "env": {
+        "NODE_OPTIONS": "--experimental-vm-modules"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "18 ForEach",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": [
+        "--runTestsByPath",
+        "./tests/18-for-each/for-each.test.js",
+        "--watch",
+        "--config",
+        "jest.config.mjs"
+      ],
+      "env": {
+        "NODE_OPTIONS": "--experimental-vm-modules"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
     }
   ]
 }
